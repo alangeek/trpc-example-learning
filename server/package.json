@@ -1,0 +1,27 @@
+{
+  "name": "trpc-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "rm -rf dist/ && tsc",
+    "start": "node idst/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@trpc/server": "^9.27.1",
+    "@types/express": "^4.17.13",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "zod": "^3.18.0"
+  }
+}
